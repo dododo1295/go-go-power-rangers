@@ -39,7 +39,7 @@ func day1_1(input string) {
 		totalDistance += distance
 	}
 
-	fmt.Println("Output of day 1 part 1 is: ", totalDistance)
+	fmt.Println("Needed a lot of help to do this but output of day 1 part 1 is: ", totalDistance)
 
 }
 
@@ -74,7 +74,7 @@ func day1_2(input string) {
 	for _, num := range left {
 		similarityScore += num * rightMap[num]
 	}
-	fmt.Println("Look at this, needed a bit of help to organize BUT we did it, part 2 is: ", similarityScore)
+	fmt.Println("Had an idea of how to do it BUT need help to organize the loops, day 1 part 2 is: ", similarityScore)
 
 }
 
