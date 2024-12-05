@@ -22,14 +22,16 @@ func main() {
 	day := 5
 	input := getInput(day)
 	// actual code
-	//	day1_1(input)
-	//	day1_2(input)
+	// day1_1(input)
+	// day1_2(input)
 	// day2_1(input)
 	// day2_2(input)
 	// day3_1(input)
 	// day3_2(input)
-	//day4_1(input)
+	// day4_1(input)
 	// day4_2(input)
-	day5_1(input)
-	day5_2(input)
+	// day5_1(input)
+	// day5_2(input)
+	day6_1(input)
+	// day6_2(input)
 }
