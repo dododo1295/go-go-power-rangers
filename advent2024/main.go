@@ -19,7 +19,7 @@ func getInput(day int) string {
 }
 
 func main() {
-	day := 5
+	day := 6
 	input := getInput(day)
 	// actual code
 	// day1_1(input)
