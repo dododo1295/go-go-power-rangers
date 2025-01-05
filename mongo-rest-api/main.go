@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"log"
-	"main/usecase"
 	"net/http"
 	"os"
+
+	"main/usecase"
 
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
@@ -27,7 +28,6 @@ func init() {
 	log.Println("Successfully loaded .env file")
 
 	mongoClient, err = mongo.Connect(context.Background(), options.Client().ApplyURI(os.Getenv("MONGO_URI")))
-
 	if err != nil {
 		log.Fatal("connection error: ", err)
 	}
